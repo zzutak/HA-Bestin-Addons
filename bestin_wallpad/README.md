@@ -1,3 +1,5 @@
+## 1.97 버전 이후 도어락 및 추가 사항 업데이트 예정
+
 # HDC BESTIN Wallpad Add-on 
 
 ![Supports aarch64 Architecture][aarch64-shield] ![Supports amd64 Architecture][amd64-shield] ![Supports armhf Architecture][armhf-shield] ![Supports armv7 Architecture][armv7-shield] ![Supports i386 Architecture][i386-shield]
