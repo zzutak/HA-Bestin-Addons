@@ -26,12 +26,14 @@ run_node() {
     node bestin.js
 }
 
-copy_file "bestin.js"
+# copy_file "bestin.js"
 copy_file_to_srv "const.js"
 copy_file_to_srv "logger.js"
 
 if [ -f "$share_dir/bestin.js" ]; then
     run_node
 else
-    exit 1
+    copy_file "bestin.js"
+    run_node
+    # exit 1
 fi
